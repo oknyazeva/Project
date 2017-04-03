@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Demo Test Plan" verbose="1">
-	
-	<test name="SignIn" preserve-order="true">
-		<parameter name="userName" value="TestVolhaUser@gmail.com"/>
-		<parameter name="password" value="TestUser1234"/>
+	<parameter name="userName" value="TestVolhaUser@gmail.com"/>
+	<parameter name="password" value="TestUser1234"/>
+	<parameter name="searchText" value="QAZamb"/>
 
+	<test name="SignIn" preserve-order="true">
 		<classes>
  			<class name="demo.tests.SigninTest" />
 		</classes>
@@ -17,7 +17,6 @@
 	</test>
 
 	<test name="Like" preserve-order="true">
-		<parameter name="searchText" value="QAZamb"/>
 		<classes>
 			<class name="demo.tests.LikeTest" />
 		</classes>
