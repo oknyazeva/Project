@@ -11,8 +11,8 @@ import webdriver.elements.TextBox;
 public class PasswordPage extends BaseForm {
     private TextBox txbPassword = new TextBox(By.id("Passwd"),"Password");
     public PasswordPage(){super(By.id("email-display"), "Password");}
-    public void enterPassword(){
-        txbPassword.setText("TestUser1234");
+    public void enterPassword(String text){
+        txbPassword.setText(text);
         txbPassword.sendKeys(Keys.ENTER);
     }
 }

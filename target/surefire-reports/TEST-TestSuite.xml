@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="117.449" tests="14" errors="0" skipped="9" failures="4">
+  <properties>
+    <property name="idea.version" value="2016.3.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.country.format" value="BY"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/o_knyazeva/Desktop/Autotests/All Tasks/Project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7537"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/o_knyazeva/Desktop/Autotests/All Tasks/Project"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/q5/z4gxz2255wlgb5ggsrmfb6vc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/o_knyazeva/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/o_knyazeva"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA CE.app/Contents/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="o_knyazeva"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.5 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/o_knyazeva/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="xTest" classname="demo.tests.SigninTest" time="41.207">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at webdriver.Logger.fatal(Logger.java:230)
+	at webdriver.BaseTest.xTest(BaseTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+    <system-out><![CDATA[18:50:56,629  INFO - browser driver was constructed
+18:50:56,630  INFO - Browser 'firefox' ready...
+18:50:57,092  INFO - -------------------------------------------------------------------------------
+18:50:57,092  INFO - =====================  Test case: 'demo.tests.SigninTest' =====================
+18:50:57,092  INFO - -------------------------------------------------------------------------------
+18:50:57,092  INFO - --------==[ Preconditions ]==--------
+18:51:00,877  INFO - --------==[ Step 1 ]==--------
+18:51:01,010  INFO - Form 'MainPage' appears in 130msec
+18:51:01,102  INFO - Button 'Sign_in' :: Clicking
+18:51:01,160  INFO - --------==[ Step 2 ]==--------
+18:51:02,440  INFO - Form 'UserNamePage' appears in 1280msec
+18:51:02,657  INFO - Text Field 'UserName' :: Typing 'TestVolhaUser@gmail.com'
+18:51:02,985  INFO - --------==[ Step 3 ]==--------
+18:51:03,639  INFO - Form 'Password' appears in 653msec
+18:51:03,853  INFO - Text Field 'Password' :: Typing 'TestUser1234'
+18:51:04,052  INFO - --------==[ Step 4 ]==--------
+18:51:07,846  INFO - Form 'MainPageAfterSignIn' appears in 3793msec
+18:51:07,935  INFO - Button 'UserSettingsButton' :: Clicking
+18:51:07,954  INFO - --------==[ Step 5 ]==--------
+18:51:08,056  INFO - Form 'MainPageAfterSignIn' appears in 102msec
+18:51:38,292  WARN - 
+18:51:38,292  WARN - >>>>>>>> TEST FAILED <<<<<<<<
+18:51:38,292  WARN - 
+18:51:38,292 FATAL - 
+]]></system-out>
+    <system-err><![CDATA[1491234654502	geckodriver	INFO	Listening on 127.0.0.1:43187
+1491234654696	mozprofile::profile	INFO	Using profile path /var/folders/q5/z4gxz2255wlgb5ggsrmfb6vc0000gn/T/rust_mozprofile.XtHuVmeU2cAB
+1491234654697	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1491234654700	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49180
+1491234655324	Marionette	INFO	Listening on port 49180
+Apr 03, 2017 6:50:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2017-04-03 18:50:56.664 plugin-container[75046:11938427] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-04-03 18:50:56.667 plugin-container[75046:11938427] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa103, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://www.youtube.com/yts/jsbin/www-en_US-vflsj--V9/base.js, line 761: TypeError: g.r(...) is not a function
+JavaScript error: https://www.youtube.com/yts/jsbin/www-en_US-vflsj--V9/base.js, line 732: TypeError: g.r(...) is not a function
+JavaScript error: https://www.youtube.com/yts/jsbin/www-en_US-vflsj--V9/base.js, line 392: Error: Module www/common required by www/feed
+JavaScript error: https://www.youtube.com/yts/jsbin/www-en_US-vflsj--V9/ypc_bootstrap.js, line 34: TypeError: g.sn is not a function
+]]></system-err>
+  </testcase>
+  <testcase name="xTest" classname="demo.tests.ClearHistoryTest" time="38.052"/>
+  <testcase name="setUp" classname="demo.tests.LikeTest" time="38.188">
+    <failure message="&#10;Parameter &apos;userName&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined&#10;in /Users/o_knyazeva/Desktop/Autotests/All Tasks/Project/src/test/resources/TestSuite.xml" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter 'userName' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in /Users/o_knyazeva/Desktop/Autotests/All Tasks/Project/src/test/resources/TestSuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+    <system-out><![CDATA[18:52:19,197  INFO - driver.quit...
+]]></system-out>
+    <system-err><![CDATA[1491234739067	Marionette	INFO	New connections will no longer be accepted
+&amp#7;[Child 75071] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 75071] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+]]></system-err>
+  </testcase>
+  <testcase name="before" classname="demo.tests.LikeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="xTest" classname="demo.tests.LikeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="after" classname="demo.tests.LikeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="demo.tests.SearchVideoTest" time="0.001">
+    <failure message="&#10;Parameter &apos;userName&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined&#10;in /Users/o_knyazeva/Desktop/Autotests/All Tasks/Project/src/test/resources/TestSuite.xml" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter 'userName' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in /Users/o_knyazeva/Desktop/Autotests/All Tasks/Project/src/test/resources/TestSuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+  </testcase>
+  <testcase name="before" classname="demo.tests.SearchVideoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="xTest" classname="demo.tests.SearchVideoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="after" classname="demo.tests.SearchVideoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="demo.tests.SubscribeTest" time="0.001">
+    <failure message="&#10;Parameter &apos;userName&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined&#10;in /Users/o_knyazeva/Desktop/Autotests/All Tasks/Project/src/test/resources/TestSuite.xml" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter 'userName' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in /Users/o_knyazeva/Desktop/Autotests/All Tasks/Project/src/test/resources/TestSuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+  </testcase>
+  <testcase name="before" classname="demo.tests.SubscribeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="xTest" classname="demo.tests.SubscribeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="after" classname="demo.tests.SubscribeTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

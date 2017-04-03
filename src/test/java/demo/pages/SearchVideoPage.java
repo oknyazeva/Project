@@ -12,8 +12,8 @@ public class SearchVideoPage extends BaseForm {
     private TextBox txbSearch = new TextBox(By.id("masthead-search-term"), "SearchTextBox");
     public SearchVideoPage(){super(By.id("appbar-nav"), "SearchVideoPage");}
 
-    public void EnterSrcText(){
-        txbSearch.setText("QAZamb");
+    public void EnterSrcText(String text){
+        txbSearch.setText(text);
         txbSearch.sendKeys(Keys.ENTER);
     }
 }

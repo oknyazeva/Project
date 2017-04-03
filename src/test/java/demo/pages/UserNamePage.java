@@ -11,8 +11,8 @@ import webdriver.elements.TextBox;
 public class UserNamePage extends BaseForm {
     private TextBox txbUser = new TextBox(By.id("Email"), "UserName");
     public UserNamePage(){super(By.className("hidden-small"), "UserNamePage");}
-    public void enterUserName(){
-        txbUser.setText("TestVolhaUser@gmail.com");
+    public void enterUserName(String text){
+        txbUser.setText(text);
         txbUser.sendKeys(Keys.ENTER);
     }
 }

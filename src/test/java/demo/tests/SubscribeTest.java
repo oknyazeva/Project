@@ -1,12 +1,24 @@
 package demo.tests;
 
 import demo.pages.*;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import webdriver.BaseTest;
 
 /**
  * Created by o_knyazeva on 4/2/17.
  */
 public class SubscribeTest extends BaseTest {
+
+    String userName;
+    String password;
+    @Parameters({"userName","password"})
+    @BeforeTest
+    public void setUp(String userName, String password){
+        this.userName = userName;
+        this.password = password;
+    }
+
 
     @Override
     public void runTest() {
@@ -17,11 +29,11 @@ public class SubscribeTest extends BaseTest {
 
         logStep();
         UserNamePage entUser = new UserNamePage();
-        entUser.enterUserName();
+        entUser.enterUserName(userName);
 
         logStep();
         PasswordPage entPass = new PasswordPage();
-        entPass.enterPassword();
+        entPass.enterPassword(password);
 
         logStep();
         SearchVideoPage srcPage = new SearchVideoPage();
