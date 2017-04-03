@@ -12,11 +12,13 @@ public class SubscribeTest extends BaseTest {
 
     String userName;
     String password;
-    @Parameters({"userName","password"})
+    String searchText;
+    @Parameters({"userName","password","searchText"})
     @BeforeTest
-    public void setUp(String userName, String password){
+    public void setUp(String userName, String password, String searchText){
         this.userName = userName;
         this.password = password;
+        this.searchText = searchText;
     }
 
 
@@ -37,7 +39,7 @@ public class SubscribeTest extends BaseTest {
 
         logStep();
         SearchVideoPage srcPage = new SearchVideoPage();
-        srcPage.EnterSrcText();
+        srcPage.EnterSrcText(searchText);
 
         logStep();
         SearchResultPage chalelLink = new SearchResultPage();
